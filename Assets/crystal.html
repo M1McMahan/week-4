@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="javascript/crystal_js.js"></script>
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body style="background-color: black">
+  <div id="title" class="alert alert-danger">
+    <h1>Crystal Coder!</h1>
+  </div>
+  <div id="details" class="alert alert-warning">
+  <p>This is a guessing game using numbers, similar to the game hangman, but instead of letters the player will guess with numbers. There will be four crystals displayed as buttons on the page.
+The player will be shown a random number at the start of the game.
+When the player clicks on a crystal it will add a specific amount of points to the player's total score.
+The player wins the game if their total score matches the random number and the player loses the game if their total score goes above the random number.</p>
+
+<p>The amount of points each crystal adds is not shown to the player, but their total score is displayed and updated after each crystal is clicked.
+The number of games won and lost will be displayed.
+If the player successfully matches their total score to the random number they get 1 win, if the player's total score is above the random number the player get 1 loss, either way the game restarts.
+When the game is restarted, the player will be shown a new random number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0. </p>
+
+</div>
+<div>
+  <h2 id="show_number" class="alert alert-success">1</h2>
+
+</div>
+<div id="img_box">
+  <button id="btn1"><img id="img1" src="images/87cbfa70049e94fda8295747be811930.jpg"></button>
+  <button id="btn2"><img id="img2" src="images/argyle-pink-diamonds-6.jpg"></button>
+  <button id="btn3"><img id="img3" src="images/Crystal.jpg"></button>
+  <button id="btn4"><img id="img4" src="images/The_Searchlight_Rhodochrosite_Crystal.jpg"></button>
+</div>
+<br/>
+<div>
+  <p id='total_msg' class="alert alert-info">Your total score is:</p>
+  <h2 id='total' class="alert alert-info">0</h2>
+</div>
+  
+</body>
+
+</html>

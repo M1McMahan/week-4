@@ -1,0 +1,48 @@
+#title{
+	/*background-color: red;
+	width: 15%;*/
+	
+}
+#details{
+	/*background-color: blue;*/
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	/*color: white; 
+	padding:5%;*/
+}
+#show_number{
+	margin-left: auto;
+	margin-right: auto;
+	
+	width:25%;
+	height: 25%;
+	text-align: center;
+	
+}
+#total_msg{
+	margin-left: auto;
+	margin-right: auto;
+	
+	width:150px;
+}
+#total{
+	margin: auto;
+	
+	
+	width:140px;
+	height: 140px;
+	text-align: center;
+
+}
+#img_box{
+	margin-left: auto;
+	margin-right: auto;
+	width: 277px;
+}
+
+img {
+	
+	height: 50px;
+	width: 50px;
+}
